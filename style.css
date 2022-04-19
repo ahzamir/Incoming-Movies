@@ -1,0 +1,55 @@
+@font-face {
+  font-family: cocogoose;
+  src: url(content/fonts/Cocogoose-Pro-Block-Border-Trial.ttf);
+}
+
+.color-secondary {
+  color: #272a31;
+}
+
+.color-primary {
+  color: #ec5242;
+}
+
+.color-thirthary {
+  color: #d3d3d3;
+}
+
+.font-primary {
+  font-family: cocogoose;
+}
+
+.font-secondary {
+  font-family: 'lato', sans-serif;
+}
+
+:root {
+  --primary: hsla(0, 0%, 95%, 0.85);
+  --secondary: hsla(0, 0%, 90%, 0.85);
+}
+
+.weight {
+  font-weight: 900;
+}
+
+.first-page-css {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)),
+    url(content/images/main-background.jpg) no-repeat center center / cover;
+}
+
+.first-page-paragraph {
+  background-color: hsl(0, 0%, 83%, 0.7);
+}
+
+.about {
+  background-color: rgba(39,42,49,1);
+  opacity: 1;
+  background-image:  linear-gradient(135deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(225deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(45deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(315deg, rgba(32,35,44,1) 25%, rgba(39,42,49,1) 25%);
+  background-position:  15px 0, 15px 0, 0 0, 0 0;
+  background-size: 15px 15px;
+  background-repeat: repeat;
+}
+
+.main-program {
+  background-color: hsl(0, 0%, 83%, 0.2);
+}
