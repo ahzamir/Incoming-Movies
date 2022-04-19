@@ -65,6 +65,11 @@ p {
   font-size: 11px;
 }
 
+.victor {
+  height: 58px;
+  width: 34px;
+}
+
 .join-us {
   background-color: #ec5242;
   border: none;
