@@ -32,16 +32,16 @@
   font-weight: 900;
 }
 
-.first-page-css {
+.home-page {
   background: linear-gradient(135deg, var(--primary), var(--secondary)),
     url(content/images/main-background.jpg) no-repeat center center / cover;
 }
 
-.first-page-paragraph {
+.home-page-paragraph {
   background-color: hsl(0, 0%, 83%, 0.7);
 }
 
-.about {
+.main-program {
   background-color: rgba(39,42,49,1);
   opacity: 1;
   background-image:  linear-gradient(135deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(225deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(45deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(315deg, rgba(32,35,44,1) 25%, rgba(39,42,49,1) 25%);
@@ -50,6 +50,23 @@
   background-repeat: repeat;
 }
 
-.main-program {
+.main-program-header-border {
+  border-bottom: 1px solid #ec5242;
+  width: 10%;
+}
+
+.main-programs {
   background-color: hsl(0, 0%, 83%, 0.2);
+  height: 82px;
+  width: auto;
+}
+
+p {
+  font-size: 11px;
+}
+
+.join-us {
+  background-color: #ec5242;
+  border: none;
+  color: #d3d3d3;
 }
