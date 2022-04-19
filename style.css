@@ -20,7 +20,7 @@
 }
 
 .font-secondary {
-  font-family: 'lato', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 :root {
@@ -80,4 +80,8 @@ p {
   background-color: #d3d3d3;
   width: 100%;
   height: auto;
+}
+
+.about {
+  background: #d3d3d3;
 }
