@@ -1,4 +1,4 @@
-.about {
+.about-page {
   background: #d3d3d3;
 }
 
@@ -10,4 +10,27 @@
 p {
   font-size: 13px;
   font-weight: 100;
+}
+
+:root {
+  --thirthary: hsla(6, 82%, 59%, 0.70);
+  --forthary: hsla(6, 82%, 59%, 0.70);
+}
+
+.past-event-1 {
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)),
+    url(content/images/event-image.webp) no-repeat center center / cover;
+  width: 100%;
+  height: fit-content;
+}
+
+.past-event {
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)),
+    url(content/images/event-image-2.webp) no-repeat center center / cover;
+  width: 100%;
+  height: fit-content;
+}
+
+.partners {
+  background: #272a31;
 }
