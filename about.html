@@ -18,26 +18,37 @@
 </head>
 
 <body>
-  <section class="about-page pt-5">
-    <header class="w-100 header-css p-4">
-      <nav class="navbar navbar-expand-lg navbar-light">
+  <section class="about-page pt-5 pt-md-0 d-md-flex flex-md-column">
+    <header class="w-100 header-css">
+      <div class="d-none header-top page-padding d-md-flex w-100 justify-content-end align-items-center">
+        <a href="#" class="me-2"><img class="header-icons" src="content/images/facebook-svgrepo-com.svg"></a>
+        <a href="#" class="me-2"><img class="header-icons" src="content/images/twitter.svg"></a>
+        <a href="#" class="me-2 text-size font-secondary text-decoration-none color-thirthary">English</a>
+        <a href="#" class="me-2 text-size font-secondary text-decoration-none color-thirthary">My Page</a>
+        <a href="#" class="me-2 text-size font-secondary text-decoration-none color-thirthary">Logout</a>
+      </div>
+      <nav class="navbar navbar-expand-md navbar-light p-4 p-md-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse page-padding d-md-flex justify-content-between" id="navbarNavAltMarkup">
+          <img class="d-none d-md-flex logo flex-start" src="content/images/next-door-logo-svg-vector.svg">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-item nav-link active me-md-4 text-size-menu" href="#">Home <span
+                class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link me-md-4 text-size-menu" href="#">Program</a>
+            <a class="nav-item nav-link me-md-4 text-size-menu" href="#">About</a>
+            <a href="#" class="d-none nav-item text-decoration-none p-1 d-md-flex text-size-menu logo-name">What's
+              Next</a>
           </div>
         </div>
       </nav>
     </header>
-    <main class="p-4 d-flex flex-column align-items-center">
+    <main class="d-flex flex-column align-items-center page-padding pt-md-5 pb-5 w-100">
       <h3 class="color-primary text-center font-secondary h3 first-page-heading1 weight">"Hello! Sharing Word"</h3>
       <h1 class="color-primary text-center font-secondary display-2 first-page-heading2 weight">LET's SEE WHAT IS NEXT
+        2022
       </h1>
       <p class="home-page-paragraph text-center display-8 secondary border border-white p-2 font-secondary mb-4 mt-4">
         In this who is next, various companies from all over around the world, which includes actors, directors,
@@ -59,18 +70,20 @@
       <div class="header-border mb-3"></div>
       <p class="font-secondary weight text-center">Take a look at the last tow What Is Next which took place in paris
         and london</p>
-      <div class="past-event p-5 mb-3 mt-4">
-        <h3 class="color-thirthary text-center font-secondary display-3 first-page-heading2 weight">2016</h3>
-        <p class="font-secondary color-thirthary weight text-center">What Is Next 2020 in Paris</p>
-      </div>
-      <div class="past-event-1 p-5">
-        <h3 class="color-thirthary text-center font-secondary display-3 first-page-heading2 weight">2018</h3>
-        <p class="font-secondary color-thirthary weight text-center">What Is Next 2018 in London</p>
+      <div class="w-100 row">
+        <div class="past-event p-5 mb-3 mt-4 col-md">
+          <h3 class="color-thirthary text-center font-secondary display-3 first-page-heading2 weight">2016</h3>
+          <p class="font-secondary color-thirthary weight text-center">What Is Next 2020 in Paris</p>
+        </div>
+        <div class="past-event-1 p-5 mt-4 ms-md-2 col-md">
+          <h3 class="color-thirthary text-center font-secondary display-3 first-page-heading2 weight">2018</h3>
+          <p class="font-secondary color-thirthary weight text-center">What Is Next 2018 in London</p>
+        </div>
       </div>
     </main>
   </section>
   <footer>
-    <div class="partners d-flex align-items-center row p-5 m-0">
+    <div class="partners d-flex align-items-center row p-5 m-0 d-md-none">
       <h2 class="color-thirthary font-secondary text-center h2 mt-3 mb-3">Partner</h2>
       <div class="header-border mb-3"></div>
       <div class="row">
@@ -81,10 +94,13 @@
       </div>
     </div>
     <div class="end-part row pe-5 ps-5">
-      <img class="col-6 w-50" src="content/images/next-door-logo-svg-vector.svg">
-      <p class="font-secondary color-secondary col-6 w-50 p-0 mt-4 align-items-center">2021 Let's See Who Is Next London
-        Some Rights Reserved
-      </p>
+      <img class="col-md-3 w-25 logo-end" src="content/images/next-door.svg">
+      <div class="d-flex align-items-center col-9">
+        <p class="font-secondary color-secondary p-rights w-50 p-0 mt-4 align-items-center p-rights">2021 Let's See Who Is Next
+          London
+          Some Rights Reserved
+        </p>
+      </div>
     </div>
   </footer>
   <script src="index.js"></script>

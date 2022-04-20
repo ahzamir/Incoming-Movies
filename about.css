@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .about-page {
   background: #d3d3d3;
 }
@@ -37,4 +43,18 @@ p {
 
 .end-part {
   background: #d3d3d3;
+}
+
+@media (min-width: 768px) {
+  .end-part {
+    background: #272a31;
+  }
+
+  .p-rights {
+    color: #d3d3d3;
+  }
+
+  .logo-end {
+    border: 1px solid #d3d3d3;
+  }
 }
