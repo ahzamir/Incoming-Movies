@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: cocogoose;
   src: url(content/fonts/Cocogoose-Pro-Block-Border-Trial.ttf);
@@ -42,12 +48,13 @@
 }
 
 .main-program {
-  background-color: rgba(39,42,49,1);
+  background-color: rgba(39, 42, 49, 1);
   opacity: 1;
-  background-image:  linear-gradient(135deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(225deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(45deg, rgba(32,35,44,1) 25%, transparent 25%), linear-gradient(315deg, rgba(32,35,44,1) 25%, rgba(39,42,49,1) 25%);
-  background-position:  15px 0, 15px 0, 0 0, 0 0;
+  background-image: linear-gradient(135deg, rgba(32, 35, 44, 1) 25%, transparent 25%), linear-gradient(225deg, rgba(32, 35, 44, 1) 25%, transparent 25%), linear-gradient(45deg, rgba(32, 35, 44, 1) 25%, transparent 25%), linear-gradient(315deg, rgba(32, 35, 44, 1) 25%, rgba(39, 42, 49, 1) 25%);
+  background-position: 15px 0, 15px 0, 0 0, 0 0;
   background-size: 15px 15px;
   background-repeat: repeat;
+  height:fit-content;
 }
 
 .header-border {
@@ -57,8 +64,8 @@
 
 .main-programs {
   background-color: hsl(0, 0%, 83%, 0.2);
-  height: 82px;
   width: auto;
+  height: fit-content;
 }
 
 p {
@@ -80,4 +87,81 @@ p {
   background-color: #d3d3d3;
   width: 100%;
   height: auto;
+}
+
+.header-top {
+  background-color: #272a31;
+  height: 25px;
+}
+
+.header-icons {
+  width: 11px;
+  height: auto;
+}
+
+.logo {
+  width: 40px;
+  height: 38px;
+}
+
+.page-padding {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+@media (min-width: 768px) {
+  nav {
+    background: #d3d3d3;
+    height: 40px;
+  }
+
+  .page-padding {
+    padding-right: 10%;
+    padding-left: 10%;
+  }
+
+  .text-size {
+    font-size: 8px;
+  }
+
+  .text-size-menu {
+    font-size: 12px;
+  }
+
+  .text-size-menu:hover {
+    color: #ec5242;
+  }
+
+  .logo-name {
+    color: #ec5242;
+    border: 2px solid #ec5242;
+  }
+
+  main {
+    width: 85%;
+  }
+
+  .home-page-paragraph {
+    width: 75%;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .main-programs {
+    background-color: hsl(0, 0%, 83%, 0.2);
+    width: auto;
+    height: 200px;
+  }
+
+  .main-programs p {
+    font-size: 8px;
+    line-height: 12px;
+    margin-bottom: 0%;
+  }
+
+  .main-programs h5 {
+    font-size: 15px;
+  }
 }
