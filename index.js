@@ -56,7 +56,7 @@ function displayMores() {
   const mores = document.createElement('div');
   mores.classList.add('row');
   moresInform.forEach((inform) => {
-    const more =`<div class="d-flex align-items-center row mt-2 col-md-6 m-md-0">
+    const more = `<div class="d-flex align-items-center row mt-2 col-md-6 m-md-0">
     <img class="col-3" alt="best actor" src="${inform.imageMore}">
     <div class="col-9">
       <h4 class="color-secondary font-secondary about-page-header h6">${inform.nameMore}</h4>
