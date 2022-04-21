@@ -22,7 +22,7 @@ body {
 }
 
 .font-primary {
-  font-family: cocogoose;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .font-secondary {
@@ -39,8 +39,7 @@ body {
 }
 
 .home-page {
-  background: linear-gradient(135deg, var(--primary), var(--secondary)),
-    url(content/images/main-background.jpg) no-repeat center center / cover;
+  background: linear-gradient(135deg, var(--primary), var(--secondary)), url(content/images/main-background.jpg) no-repeat center center / cover;
 }
 
 .home-page-paragraph {
@@ -54,7 +53,6 @@ body {
   background-position: 15px 0, 15px 0, 0 0, 0 0;
   background-size: 15px 15px;
   background-repeat: repeat;
-  height:fit-content;
 }
 
 .header-border {
@@ -65,7 +63,6 @@ body {
 .main-programs {
   background-color: hsl(0, 0%, 83%, 0.2);
   width: auto;
-  height: fit-content;
 }
 
 p {

@@ -19,22 +19,18 @@ p {
 }
 
 :root {
-  --thirthary: hsla(6, 82%, 59%, 0.70);
-  --forthary: hsla(6, 82%, 59%, 0.70);
+  --thirthary: hsla(6, 82%, 59%, 0.7);
+  --forthary: hsla(6, 82%, 59%, 0.7);
 }
 
 .past-event-1 {
-  background: linear-gradient(135deg, var(--thirthary), var(--forthary)),
-    url(content/images/event-image.webp) no-repeat center center / cover;
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)), url(content/images/event-image.webp) no-repeat center center / cover;
   width: 100%;
-  height: fit-content;
 }
 
 .past-event {
-  background: linear-gradient(135deg, var(--thirthary), var(--forthary)),
-    url(content/images/event-image-2.webp) no-repeat center center / cover;
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)), url(content/images/event-image-2.webp) no-repeat center center / cover;
   width: 100%;
-  height: fit-content;
 }
 
 .partners {
