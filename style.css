@@ -6,7 +6,7 @@ body {
 
 @font-face {
   font-family: cocogoose;
-  src: url(content/fonts/Cocogoose-Pro-Block-Border-Trial.ttf);
+  src: url(content/fonts/Cocogoose\ Pro\ Letterpress\ Trial.ttf);
 }
 
 .color-secondary {
@@ -23,6 +23,8 @@ body {
 
 .font-primary {
   font-family: 'cocogoose', sans-serif;
+  opacity: 75%;
+  width: 75%;
 }
 
 .font-secondary {
