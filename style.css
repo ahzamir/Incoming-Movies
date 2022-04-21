@@ -63,6 +63,20 @@ body {
 .main-programs {
   background-color: hsl(0, 0%, 83%, 0.2);
   width: auto;
+  height: 94px;
+}
+
+.main-programs h5 {
+  font-size: 13px;;
+}
+
+.main-programs p {
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.main-programs:hover {
+  border: 1px solid #fff;
 }
 
 p {
@@ -80,8 +94,12 @@ p {
   color: #d3d3d3;
 }
 
+.join-us:hover {
+  background-color: hsl(6, 89%, 36%);
+}
+
 .featured-speakers {
-  background-color: #d3d3d3;
+  background-color: #fff;
   width: 100%;
   height: auto;
 }
@@ -153,13 +171,14 @@ p {
   }
 
   .main-programs p {
-    font-size: 8px;
-    line-height: 12px;
-    margin-bottom: 0%;
+    font-size: 13px;
+    line-height: 13px;
+    width: 97%;
   }
 
   .main-programs h5 {
-    font-size: 15px;
+    font-size: 18px;
+    width: 97%;
   }
 
   .end-part {
