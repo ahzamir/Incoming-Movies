@@ -135,7 +135,7 @@ p {
   }
 
   main {
-    width: 85%;
+    width: 100%;
   }
 
   .home-page-paragraph {
@@ -160,5 +160,9 @@ p {
 
   .main-programs h5 {
     font-size: 15px;
+  }
+
+  .end-part {
+    background: #d3d3d3;
   }
 }

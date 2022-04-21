@@ -37,13 +37,9 @@ p {
   background: #272a31;
 }
 
-.end-part {
-  background: #d3d3d3;
-}
-
 @media (min-width: 768px) {
   .end-part {
-    background: #272a31;
+    background: #d3d3d3;
   }
 
   .p-rights {
