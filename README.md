@@ -47,6 +47,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Special Thanks [Cindy Shin](https://www.behance.net/adagio07) which is the author of [Orignal Design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
