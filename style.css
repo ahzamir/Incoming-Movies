@@ -67,7 +67,11 @@ body {
 }
 
 .main-programs h5 {
-  font-size: 13px;;
+  font-size: 13px;
+}
+
+p {
+  font-size: 11px;
 }
 
 .main-programs p {
@@ -77,10 +81,6 @@ body {
 
 .main-programs:hover {
   border: 1px solid #fff;
-}
-
-p {
-  font-size: 11px;
 }
 
 .victor {
