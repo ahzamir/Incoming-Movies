@@ -37,16 +37,17 @@ const speakersInfo = [{
 function displaySpeakers() {
   const speakersPart = document.getElementById('speakers');
   const speakers = document.createElement('div');
-  speakersInfo.forEach((speakerInfo) => {
+  speakers.classList.add('row');
+  speakersInfo.forEach((info) => {
     const speaker = `<div class="d-flex align-items-center row mt-2 col-md-6 m-md-0">
-    <img class="col-3" alt="best actor" src="${speaker.image}">
+    <img class="col-3" alt="best actor" src="${info.image}">
     <div class="col-9">
-      <h4 class="color-secondary font-secondary about-page-header h6">${speaker.name}</h4>
-      <p class="color-primary font-secondary">${speaker.inform}</p>
-      <p class="color-secondary font-secondary">${speaker.shortBio}</p>
+      <h4 class="color-secondary font-secondary about-page-header h6">${info.name}</h4>
+      <p class="color-primary font-secondary">${info.inform}</p>
+      <p class="color-secondary font-secondary">${info.shortBio}</p>
     </div>
     </div>`;
-    speakers.insertAdjacentHTML('beforeend', speakers);
+    speakers.insertAdjacentHTML('beforeend', speaker);
   });
   speakersPart.appendChild(speakers);
 }
