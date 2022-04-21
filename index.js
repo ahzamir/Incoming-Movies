@@ -9,30 +9,6 @@ const speakersInfo = [{
   inform: 'The Power of the Dog wins Best Director In 2021',
   shortBio: 'Jane Campion has won the Oscar for best director at the 94th Academy Awards, currently under way at the Dolby theatre in Los Angeles. Campion becomes the third woman to win the award, after Chloé Zhao in 2021 and Kathryn Bigelow in 2010.',
   image: 'content/images/the-best-director.jpg',
-},
-{
-  name: 'Isaac Perlmutter',
-  inform: 'Chairperson of Marvel Entertainment',
-  shortBio: 'Isaac "Ike" Perlmutter is an Israeli-American businessman and financier. He is the chairman and former CEO of Marvel Entertainment. He was also the owner of Remington Products and Marvel Toys.',
-  image: 'content/images/marvel-ceo.jpg',
-},
-{
-  name: 'Will Smith',
-  inform: 'Willard Carroll Smith II, is an American actor, rapper, and film producer.',
-  shortBio: 'Will Smith’s transformation from a fearful child in a tense West Philadelphia home to one of the biggest rap stars of his era and then one of the biggest movie stars in Hollywood history, with a string of box office successes that will likely never be broken, is an epic tale of inner transformation and outer triumph, and Will tells it astonishingly well. But its only half the story.',
-  image: 'content/images/will-smith.jpg',
-},
-{
-  name: 'Angelina Jolie',
-  inform: 'Angelina Jolie the sponsorship of this event Awards',
-  shortBio: 'Angelina Jolie DCMG is an American actress, filmmaker, and humanitarian. The recipient of numerous accolades, including an Academy Award and three Golden Globe Awards, she has been named Hollywoods highest-paid actress multiple times.',
-  image: 'content/images/angelina-jolie.jpg',
-},
-{
-  name: 'Angelina Jolie',
-  inform: 'Angelina Jolie the sponsorship of this event Awards',
-  shortBio: 'Angelina Jolie DCMG is an American actress, filmmaker, and humanitarian. The recipient of numerous accolades, including an Academy Award and three Golden Globe Awards, she has been named Hollywoods highest-paid actress multiple times.',
-  image: 'content/images/angelina-jolie.jpg',
 }];
 function displaySpeakers() {
   const speakersPart = document.getElementById('speakers');
@@ -51,7 +27,49 @@ function displaySpeakers() {
   });
   speakersPart.appendChild(speakers);
 }
+const moresInform = [{
+  nameMore: 'Isaac Perlmutter',
+  informMore: 'Chairperson of Marvel Entertainment',
+  shortBioMore: 'Isaac "Ike" Perlmutter is an Israeli-American businessman and financier. He is the chairman and former CEO of Marvel Entertainment. He was also the owner of Remington Products and Marvel Toys.',
+  imageMore: 'content/images/marvel-ceo.jpg',
+},
+{
+  nameMore: 'Will Smith',
+  informMore: 'Willard Carroll Smith II, is an American actor, rapper, and film producer.',
+  shortBioMore: 'Will Smith’s transformation from a fearful child in a tense West Philadelphia home to one of the biggest rap stars of his era and then one of the biggest movie stars in Hollywood history, with a string of box office successes that will likely never be broken, is an epic tale of inner transformation and outer triumph, and Will tells it astonishingly well. But its only half the story.',
+  imageMore: 'content/images/will-smith.jpg',
+},
+{
+  nameMore: 'Angelina Jolie',
+  informMore: 'Angelina Jolie the sponsorship of this event Awards',
+  shortBioMore: 'Angelina Jolie DCMG is an American actress, filmmaker, and humanitarian. The recipient of numerous accolades, including an Academy Award and three Golden Globe Awards, she has been named Hollywoods highest-paid actress multiple times.',
+  imageMore: 'content/images/angelina-jolie.jpg',
+},
+{
+  nameMore: 'Angelina Jolie',
+  informMore: 'Angelina Jolie the sponsorship of this event Awards',
+  shortBioMore: 'Angelina Jolie DCMG is an American actress, filmmaker, and humanitarian. The recipient of numerous accolades, including an Academy Award and three Golden Globe Awards, she has been named Hollywoods highest-paid actress multiple times.',
+  imageMore: 'content/images/angelina-jolie.jpg',
+}];
+function displayMores() {
+  const morePart = document.getElementById('mores');
+  const mores = document.createElement('div');
+  mores.classList.add('row');
+  moresInform.forEach((inform) => {
+    const more =`<div class="d-flex align-items-center row mt-2 col-md-6 m-md-0">
+    <img class="col-3" alt="best actor" src="${inform.imageMore}">
+    <div class="col-9">
+      <h4 class="color-secondary font-secondary about-page-header h6">${inform.nameMore}</h4>
+      <p class="color-primary font-secondary">${inform.informMore}</p>
+      <p class="color-secondary font-secondary">${inform.shortBioMore}</p>
+    </div>
+    </div>`;
+    mores.insertAdjacentHTML('beforeend', more);
+  });
+  morePart.appendChild(mores);
+}
 
 window.addEventListener('DOMContentLoaded', () => {
   displaySpeakers();
+  displayMores();
 });
