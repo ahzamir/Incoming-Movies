@@ -35,6 +35,15 @@ p {
 
 .partners {
   background: #272a31;
+  width: 100%;
+}
+
+.end-part2 {
+  height: 120px;
+}
+
+.p-rights {
+  color: #d3d3d3;
 }
 
 @media (min-width: 768px) {

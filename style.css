@@ -184,6 +184,8 @@ p {
   }
 
   .end-part {
-    background: #d3d3d3;
+    background: #fff;
+    height: 130px;
+    margin-right: 0;
   }
 }
