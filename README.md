@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Incoming Movies
+# Incoming Movies Event
 
 > This is a Web page which is about announcment of an event that contains information about an incoming Event(What Is Next). In this event famous actors directors filmmakers and companies that are in this field participate from around the world. I have used HTML, CSS and JavaScript for this project and you can use it in your local machin just by cloning this repo.
 
