@@ -106,6 +106,19 @@ p {
   height: auto;
 }
 
+.speakers-img {
+  width: 100%;
+  height: 100%;
+}
+
+.speakers-name {
+  font-size: 12px;
+}
+
+.speakers-bio {
+  font-size: 10px;
+}
+
 .header-top {
   background-color: #272a31;
   height: 25px;
@@ -181,6 +194,12 @@ p {
   .main-programs h5 {
     font-size: 18px;
     width: 97%;
+  }
+
+  .speakers-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
   }
 
   .end-part {
