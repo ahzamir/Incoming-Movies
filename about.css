@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.about-page {
+  background: #d3d3d3;
+}
+
+.logo-next {
+  height: 125px;
+  width: 125px;
+}
+
+p {
+  font-size: 13px;
+  font-weight: 100;
+}
+
+:root {
+  --thirthary: hsla(6, 82%, 59%, 0.7);
+  --forthary: hsla(6, 82%, 59%, 0.7);
+}
+
+.past-event-1 {
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)), url(content/images/event-image.webp) no-repeat center center / cover;
+  width: 100%;
+}
+
+.past-event {
+  background: linear-gradient(135deg, var(--thirthary), var(--forthary)), url(content/images/event-image-2.webp) no-repeat center center / cover;
+  width: 100%;
+}
+
+.partners {
+  background: #272a31;
+  width: 100%;
+}
+
+.end-part2 {
+  height: 120px;
+}
+
+.p-rights {
+  color: #d3d3d3;
+}
+
+@media (min-width: 768px) {
+  .end-part {
+    background: #d3d3d3;
+  }
+
+  .p-rights {
+    color: #d3d3d3;
+  }
+
+  .logo-end {
+    border: 1px solid #d3d3d3;
+  }
+}
