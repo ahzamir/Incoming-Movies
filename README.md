@@ -34,7 +34,7 @@ Clone the repositry and open the index.html which is in the folder.
 ## Authors
 
 - GitHub: [@ahzamir](https://github.com/ahzamir)
-- Twitter: [@YousufiZamir](https://twitter.com/YousufiZamir)
+- Twitter: [@YousufiZamir](https://twitter.com/YousufiZamir) 
 - LinkedIn: [ahmad-zamir-yousufi](https://www.linkedin.com/in/ahmad-zamir-yousufi-70603317b/)
 
 
